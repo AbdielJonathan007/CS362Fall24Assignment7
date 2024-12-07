@@ -53,7 +53,7 @@ def perceptron(dataInput,labels, alpha = 0.01, epochs=50):
             # Updated bias
             bias += alpha * error
         print(f"Epoch {epoch + 1}/{epochs}, Error: {total_error}")
-
+        test
 
 
     return weight, bias
